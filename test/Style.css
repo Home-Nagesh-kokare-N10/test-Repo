@@ -1,6 +1,19 @@
 #table {
-    display: table;
     border-spacing: 2px ;
-    border: 1px solid black;
+    border: 1px soli blue;
     border-collapse: collapse;
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    margin:50px;
+    background-color: cyan;
+    transition: tranform 1s ;
+    box-shadow: 10px 10px 10px #999;
+}
+
+#box:hover {
+    transform: rotateY(40deg);
+    /*background-color: darkgreen;*/
 }
